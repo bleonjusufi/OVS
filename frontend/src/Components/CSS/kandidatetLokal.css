@@ -1,0 +1,54 @@
+.div1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.headers {
+    color: blue;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.wrapper {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+
+.candidates {
+    color: white;
+    font-weight: bold;
+    padding: 40px 0;
+    display: block;
+}
+
+.card {
+    width: 300px;
+    height: 320px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+    .card img {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+.text {
+    margin-top: 20px;
+    color: blue;
+}
+
+.my-button {
+    padding: 6px 140px;
+    border-radius: 15px;
+    background-color: yellow;
+    color: darkslategrey;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 20px;
+    border: 1px solid darkslategrey;
+}
