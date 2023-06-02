@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/article.css';
-import Header from '../Header.js';
+import Header from '../Header.jsx';
 import aknews from '../../images/aknews.jpg';
 import prnews from '../../images/prnews.jpg';
 import rhnews from '../../images/rhnews.jpg';
@@ -9,7 +9,7 @@ import avnews from '../../images/avnews.jpg';
 import flnews from '../../images/flnews.jpg';
 import imnews from '../../images/imnews.jpg';
 import vonews from '../../images/vonews.jfif';
-import Footer from '../Footer.js';
+import Footer from '../Footer.jsx';
 
 
 function Article() {

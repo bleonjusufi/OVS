@@ -13,7 +13,7 @@ function Users() {
     const handleDelete = (id) => {
         axios.delete('http://localhost:8081/delete' + id)
         .then(res => {
-            location.reload();
+            window.location.reload();
         })
         .catch(err => console.log(err));
     }

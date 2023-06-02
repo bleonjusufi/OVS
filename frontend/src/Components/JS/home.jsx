@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header.js';
+import Header from '../Header.jsx';
 import vota from '../../images/vota.png';
 import ak from '../../images/ak.jpg';
 import pr from '../../images/pr.jpg';
@@ -9,7 +9,7 @@ import VV from '../../images/VV.png';
 import PDK from '../../images/PDK.png';
 import LDK from '../../images/LDK.png';
 import rks from '../../images/rks.png';
-import Footer from '../Footer.js';
+import Footer from '../Footer.jsx';
 
 function Index() {
     return (

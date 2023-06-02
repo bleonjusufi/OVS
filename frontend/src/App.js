@@ -1,16 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './Components/CSS/home.css';
-import Home from './Components/JS/home.js';
-import About from './Components/JS/about.js';
-import Register from './Components/JS/register.js';
-import Login from './Components/JS/login.js';
-import Article from './Components/JS/article.js';
-import Lokal from './Components/JS/kandidatetLokal.js';
-import Lokale from './Components/JS/zgjedhjetLokale.js';
-import Contact from './Components/JS/contact.js';
-import Users from './userCRUD/users.js';
-import CreateUser from './userCRUD/createUser.js';
+import Home from './Components/JS/home.jsx';
+import About from './Components/JS/about.jsx';
+import Register from './Components/JS/register.jsx';
+import Login from './Components/JS/login.jsx';
+import Article from './Components/JS/article.jsx';
+import Lokal from './Components/JS/kandidatetLokal.jsx';
+import Lokale from './Components/JS/zgjedhjetLokale.jsx';
+import Contact from './Components/JS/contact.jsx';
+import Users from './userCRUD/users.jsx';
+import CreateUser from './userCRUD/createUser.jsx';
+import Read from './userCRUD/readUser.jsx';
+import Edit from './userCRUD/editUser.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
                     <Route path="/zgjedhjetLokale" element={<Lokale />} />
                     <Route path="/users" element={<Users /> } /> 
                     <Route path='/create' element={<CreateUser />} />
+                    <Route path='/read/:id' element={<Read />} />
+                    <Route path='/edit/:id' element={<Edit />} />
                 </Routes>
             </Router>
         </>

@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../Header.js';
+import Header from '../Header.jsx';
 import votimilive from '../../images/votimilive.jpg';
-import Footer from '../Footer.js';
+import Footer from '../Footer.jsx';
 
 function About() {
     return (

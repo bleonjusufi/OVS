@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 function CreateUser() {
     const [values, setValues] = useState({
         fullName: '',
         nrPersonal: ''
     })
+    const navigate = useNavigate();
+
     const handleSubmit = (e) => {
         e.preventDefault();
         axios.post('http://localhost:8081/Perdoruesit', values)
-        .then(res => console.log(res))
+        .then(res => {
+            console.log(res);
+            navigate('/users');
+        })
         .catch(err => console.log(err));
     }
     return(

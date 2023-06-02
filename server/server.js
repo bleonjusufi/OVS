@@ -33,6 +33,33 @@ app.post('/Perdoruesit', (req, res) => {
     })
 })
 
-app.listen(8081, () => {
+app.get('/read/:id', (req, res) => {
+    const sql = "SELECT * from Perdoruesit WHERE ID = ?";
+    const id = req.params.id;
+    db.query(sql, [id],(err, result) => {
+        if(err) return res.json({Message: "Error inside server"});
+        return res.json(result);
+    })
+})
+
+app.put('/update/:id', (req, res) => {
+    const sql = 'UPDATE Perdoruesit SET `fullName`=?, `nrPersonal`=? WHERE ID = ?';
+    const id = req.params.id;
+    db.query(sql, [req.body.fullName, req.body.nrPersonal, id], (err, result) => {
+        if(err) return res.json({Message: "Error inside server"});
+        return res.json(result);
+    })
+})
+
+app.delete('/delete/:id', (req, res) => {
+    const sql = "DELETE FROM Perdoruesit WHERE ID=?";
+    const id = req.params.id;
+    db.query(sql, [id], (err, result) => {
+        if(err) return res.json({Message: "Error inside server"});
+        return res.json(result);
+    })
+})
+
+app.listen(8081, () => {    
     console.log("Listening");
 })
