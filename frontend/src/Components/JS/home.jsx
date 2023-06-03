@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header.jsx';
+import '../CSS/home.css';
 import vota from '../../images/vota.png';
 import ak from '../../images/ak.jpg';
 import pr from '../../images/pr.jpg';

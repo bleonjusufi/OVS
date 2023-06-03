@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './Components/CSS/home.css';
 import Home from './Components/JS/home.jsx';
 import About from './Components/JS/about.jsx';
 import Register from './Components/JS/register.jsx';
@@ -13,7 +12,7 @@ import Users from './userCRUD/users.jsx';
 import CreateUser from './userCRUD/createUser.jsx';
 import Read from './userCRUD/readUser.jsx';
 import Edit from './userCRUD/editUser.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
