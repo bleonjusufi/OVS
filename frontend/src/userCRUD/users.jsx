@@ -43,7 +43,7 @@ function Users() {
                                     <td>
                                         <Link to={`/read/${perdoruesit.ID}`} className='btn btn-sm btn-info'>Read</Link>
                                         <Link to={`/edit/${perdoruesit.ID}`} className='btn btn-sm btn-primary mx-2'>Ndrysho</Link>
-                                        <button className='btn btn-sm btn-danger'>Delete</button>
+                                        {/* <button className='btn btn-sm btn-danger'>Delete</button> */}
                                     </td>
                                 </tr>
                             })}
