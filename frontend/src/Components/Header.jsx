@@ -13,6 +13,7 @@ function Header() {
                     <div className="nav-bar">
                         <ul className="list">
                             <Link to="/">Kreu</Link>
+                            <Link to="/kandidatetLokal">Zgjedhje Lokale</Link>
                             <Link to="/about">Rreth Nesh</Link>
                             <Link to="/contact">Kontakti</Link>
                             <Link to="/article">Lajme</Link>

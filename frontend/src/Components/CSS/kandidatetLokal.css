@@ -1,51 +1,75 @@
 .div1 {
     text-align: center;
     padding: 50px 0;
-}
-
-.headers {
+  }
+  
+  .headers1 {
     color: blue;
-    margin-bottom: 50px;
     font-weight: bold;
-}
+    margin-top: 100px;
+  }
 
-.wrapper {
+  .candidatesHeader{
+   padding-top: 30px;
+  }
+  
+  .wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: lightblue;
+  }
+  .row1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+  .column1 {
+    width: 27.33%;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    float: left;
+  }
+  
+  .cards {
+    box-shadow: 0 4px 8px 0 rgb(242, 242, 171);
+  }
+  
+  .col{
+    margin-left: 140px;
+  }
+  .card-container {
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #card-photos {
+    width: 100%;
+  }
 
-.candidates {
+  .title{
+    padding-top: 8px;
+  }
+  h2{
+    padding-top: 5px;
+  }
+  .container{
+    padding-bottom: 25px;
+  }
+  
+  .partite-title {
+    text-align: center;
     color: white;
-    font-weight: bold;
-    padding: 40px 0;
-    display: block;
-}
-
-.card {
-    width: 300px;
-    height: 320px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    display: inline-block;
-}
-
-    .card img {
-        padding-top: 50px;
-        width: 100%;
-    }
-
-.text {
-    margin-top: 20px;
-    color: blue;
-}
-
-.my-button {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .my-button1 {
     padding: 6px 140px;
-    border-radius: 15px;
-    background-color: yellow;
+    border-radius: 5px;
+    background-color: #C6D8EE;
     color: darkslategrey;
     font-weight: bolder;
     font-size: 40px;
