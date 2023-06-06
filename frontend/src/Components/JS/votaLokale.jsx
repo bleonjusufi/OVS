@@ -1,11 +1,12 @@
-import React, { Component} from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../CSS/zgjedhjetLokale.css';
+import '../CSS/votaLokaleForm.css';
 
-class zgjedhjetLokale extends Component {
+
+
+class votaLokale extends Component {
     render() {
-        const Form = () => {
-
+        
             return (
                 <>
                     <div className="container2">
@@ -21,7 +22,7 @@ class zgjedhjetLokale extends Component {
                                 <input type="checkbox" name="candidate1" className="can1" />
                                 Albin Kurti- VV
                             </label>
-
+                            
 
                             <label className="label1 can">
                                 <input type="checkbox" name="candidate2" className="can1" />
@@ -33,7 +34,7 @@ class zgjedhjetLokale extends Component {
                                 <input type="checkbox" name="candidate3" className="can1" />
                                 Uran Ismaili - PDK
                             </label>
-
+                        
 
                             <label className="lab label1">
                                 <input type="checkbox" name="candidate4" className="can1" />
@@ -43,9 +44,9 @@ class zgjedhjetLokale extends Component {
 
                             <label className="lab2 label1">
                                 <input type="checkbox" name="candidate5" className="can1" />
-                                Ramush Haradinaj - AAK
+                                 Ramush Haradinaj - AAK
                             </label>
-
+                          
                         </div>
 
                         <Link to="/votaLokale">
@@ -56,8 +57,8 @@ class zgjedhjetLokale extends Component {
             )
         }
 
-        return <Form />;
+       
     }
-}
 
-export default zgjedhjetLokale;
+
+export default votaLokale;
