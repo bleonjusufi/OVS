@@ -49,12 +49,12 @@ class votaLokale extends Component {
                           
                         </div>
 
-                        <Link to="/votaLokale">
+                        <Link to="">
                             <button className="button">Dergo Voten!</button>
                         </Link>
                     </div>
                 </>
-            )
+            );
         }
 
        
