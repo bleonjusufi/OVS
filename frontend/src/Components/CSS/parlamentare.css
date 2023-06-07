@@ -1,29 +1,59 @@
-.divClass {
-    padding: 50px 0;
+*{
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .header1{
     text-align: center;
-}
-
-.header1 {
-    color: blue;
-    margin-bottom: 50px;
-    font-weight: bold;
+    margin-top: 55px;
+  }
+  .paragraphs{
     text-align: center;
-}
-
-.wrapperClass {
-    width: 80%;
-    margin-left: 10%;
-}
-
-.paragraphs {
     color: gray;
-    font-size: 25px;
-    padding-top: 20px;
-}
-.numbers {
- padding: 0px 0px;
-}
-.button1 {
+    margin: 40px 0 ;
+
+  }
+  
+  .checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  .checkbox input[type="checkbox"] {
+    margin-right: 155px;
+  }
+  
+  .flexbox-container{
+    width: 50%;
+    margin-left: 300px;
+  }
+  .flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flexbox-container label {
+    display: flex;
+    align-items: center;
+    margin: 3px;
+  }
+ 
+  .flexbox-container input[type="checkbox"] {
+    margin-right: 3px;
+  }
+
+  
+  .button1 {
     padding: 6px 140px;
     border-radius: 15px;
     background-color: yellow;
@@ -31,21 +61,19 @@
     font-weight: bolder;
     border: 1px solid darkslategrey;
     font-size: 33px;
-    margin-top: 40px;
-    margin-left: 85px;
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-bottom: 75px;
 }
-.flexbox-item{
-    background-color: lightgrey;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-   
+
+.checkbox2{
+    width: 50%;
+    margin-left: 350px;
 }
-.flexbox-container{
-    display: flex;
-    justify-content: center;
-}
-label{
-    font-size: 40px;
-    padding: 10px;
-}
+
+.checkbox2 input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  .checkbox2 label {
+    margin: 20px;
+  }
