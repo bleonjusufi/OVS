@@ -34,7 +34,7 @@ function App() {
                     <Route path='/read/:id' element={<Read />} />
                     <Route path='/edit/:id' element={<Edit />} />
                     <Route path="/ParlamentareForm" element={<ParlamentareForm />} />
-                    <Route path="/votaLokale" element={<votaLokale/>} />
+                    <Route path="/votaLokale" element={<votaLokale />} />
                 </Routes>
             </Router>
         </>

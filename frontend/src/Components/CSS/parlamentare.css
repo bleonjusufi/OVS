@@ -1,16 +1,18 @@
 .divClass {
     padding: 50px 0;
+    text-align: center;
 }
 
 .header1 {
     color: blue;
     margin-bottom: 50px;
     font-weight: bold;
+    text-align: center;
 }
 
 .wrapperClass {
-    flex-wrap: wrap;
-    background-color: lightblue;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .paragraphs {
@@ -31,4 +33,19 @@
     font-size: 33px;
     margin-top: 40px;
     margin-left: 85px;
+}
+.flexbox-item{
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+   
+}
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: 40px;
+    padding: 10px;
 }
