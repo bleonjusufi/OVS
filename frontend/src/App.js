@@ -16,9 +16,7 @@ import ParlamentareForm from './Components/JS/ParlamentareForm.jsx';
 import votaLokale from './Components/JS/votaLokale.jsx';
 import Voto from './Components/JS/votoketu.jsx';
 import Zgjedhjet from './Components/JS/zgjedhjet.jsx';
-
-
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import Vetvendosje from './Components/JS/vvpage.jsx';
 
 function App() {
     return (
@@ -41,7 +39,8 @@ function App() {
                     <Route path="/votaLokale" element={<votaLokale/>} />
                     <Route path="/votoketu" element={<Voto/>}/>
                     <Route path="/zgjedhjet" element={<Zgjedhjet/>}/>
-                    </Routes>
+                    <Route path="/vvpage" element={<Vetvendosje/>}/>
+                </Routes>
             </Router>
         </>
     )
