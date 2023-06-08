@@ -1,13 +1,11 @@
 .divClass{
   background-color: lightblue;
-
+  text-align: center;
 }
 .header1{
-  text-align: center;
   padding-top: 50px;
 }
 .paragraphs{
-  text-align: center;
   color: darkslategrey;
   margin: 40px 0 ;
 

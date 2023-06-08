@@ -4,7 +4,7 @@ import '../CSS/VotaLokaleForm.css';
 
 
 
-class VotaLokale extends Component {
+class votaLokale extends Component {
     render() {
         
             return (
@@ -66,4 +66,4 @@ class VotaLokale extends Component {
     }
 
 
-export default VotaLokale;
+export default votaLokale;
