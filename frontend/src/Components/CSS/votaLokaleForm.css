@@ -1,0 +1,33 @@
+.container3{
+    background-color: lightblue;
+    height: 800px;
+    text-align: center;
+}
+
+.header3{
+    padding-top: 50px;
+    color: rgb(2, 2, 58);
+}
+
+.paragraph3{
+    color: darkslategrey;
+    margin: 40px 0 ;
+}
+input[type="checkbox"] {
+    margin: 55px 6px;
+  }
+  label{
+    margin: 55px 0px;
+  }
+
+.button3 {
+    padding: 6px 140px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 49);
+    color: darkslategrey;
+    font-weight: bolder;
+    border: 1px solid darkslategrey;
+    font-size: 33px;
+    margin-top: 30px;
+    margin-bottom: 75px;
+  }

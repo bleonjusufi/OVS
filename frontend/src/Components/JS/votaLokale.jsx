@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-//import '../CSS/votaLokaleForm.css';
+import '../CSS/VotaLokaleForm.css';
 
 
 
@@ -12,39 +12,44 @@ class VotaLokale extends Component {
                     <div className="container3">
 
                         <div className="text-boxx">
-                            <h3 className="header3">Zgjedh kryeministrin e vendit!</h3>
+                            <h1 className="header3">Zgjedh kryeministrin e vendit!</h1>
 
                             <p className="paragraph3">Ne menyre qe vota te jete e vlefshe, zgjedhni vetem njerin kandidat.</p>
                         </div>
 
                         <div className="wrapper3">
                             <label className="lab">
-                                <input type="box3" name="candidate1"/>
+                                <input type="checkbox" name="candidate1"/>
                                 Albin Kurti- VV
                             </label>
                             
 
                             <label className="lab">
-                                <input type="box3" name="candidate2" />
+                                <input type="checkbox" name="candidate2" />
                                 Perparim Rama - LDK
                             </label>
                             <br />
 
                             <label className="lab">
-                                <input type="box3" name="candidate3"  />
+                                <input type="checkbox" name="candidate3"  />
                                 Uran Ismaili - PDK
                             </label>
                         
 
                             <label className="lab">
-                                <input type="box3" name="candidate4" />
+                                <input type="checkbox" name="candidate4" />
                                 Behgjet Pacolli - AKR
                             </label>
                             <br />
 
                             <label className="lab">
-                                <input type="box3" name="candidate5"  />
+                                <input type="checkbox" name="candidate5"  />
                                  Ramush Haradinaj - AAK
+                            </label>
+
+                            <label className="lab">
+                                <input type="checkbox" name="candidate5"  />
+                                 Fatmir Limaj - NISMA
                             </label>
                           
                         </div>
