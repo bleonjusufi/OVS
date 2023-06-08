@@ -34,6 +34,11 @@ class votaLokale extends Component {
                                 <input type="checkbox" name="candidate3"  />
                                 Uran Ismaili - PDK
                             </label>
+
+                            <label className="lab">
+                                <input type="checkbox" name="candidate5"  />
+                                 Ramush Haradinaj - AAK
+                            </label>
                         
 
                             <label className="lab">
@@ -42,10 +47,6 @@ class votaLokale extends Component {
                             </label>
                             <br />
 
-                            <label className="lab">
-                                <input type="checkbox" name="candidate5"  />
-                                 Ramush Haradinaj - AAK
-                            </label>
 
                             <label className="lab">
                                 <input type="checkbox" name="candidate5"  />
