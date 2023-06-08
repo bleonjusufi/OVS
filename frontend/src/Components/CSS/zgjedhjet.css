@@ -1,0 +1,46 @@
+.zgjedhjet-container {
+    margin: 1.5cm auto;
+    max-width: 800px;
+    padding: 20px;
+    transform: translateY(1.5cm);
+}
+  
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.Zgjedhjet {
+    margin-bottom: 20px;
+}
+
+.Zgjendjet {
+    margin-bottom: 20px;
+}
+  
+  
+div.Vetvendosje,
+div.Partika,
+div.Levizja,
+div.Komuna {
+   background-color: #f2f2f2;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+  div.Komuna-Prishtine,
+  div.Komuna-Prizren,
+  div.Komuna-Mitrovica,
+  div.Komuna-Ferizaj,
+  div.Komuna-Podujeva,
+  div.Komuna-Gjakova,
+  div.Komuna-Peja,
+  div.Komuna-Gjilani,
+  div.Komuna-Skenderaj,
+  div.Komuna-Deçani {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+  
