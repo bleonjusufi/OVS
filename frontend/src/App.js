@@ -13,7 +13,11 @@ import CreateUser from './userCRUD/createUser.jsx';
 import Read from './userCRUD/readUser.jsx';
 import Edit from './userCRUD/editUser.jsx';
 import ParlamentareForm from './Components/JS/ParlamentareForm.jsx';
+<<<<<<< HEAD
 
+=======
+import votaLokale from './Components/JS/votaLokale.jsx';
+>>>>>>> parent of 5b58f915 (.)
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -34,7 +38,11 @@ function App() {
                     <Route path='/read/:id' element={<Read />} />
                     <Route path='/edit/:id' element={<Edit />} />
                     <Route path="/ParlamentareForm" element={<ParlamentareForm />} />
+<<<<<<< HEAD
                     
+=======
+                    <Route path="/votaLokale" element={<votaLokale />} />
+>>>>>>> parent of 5b58f915 (.)
                 </Routes>
             </Router>
         </>
