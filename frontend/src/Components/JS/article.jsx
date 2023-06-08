@@ -3,6 +3,7 @@ import '../CSS/article.css';
 import Header from '../Header.jsx';
 import Footer from '../Footer.jsx';
 import Sidebar from '../Sidebar';
+import { Link } from 'react-router-dom';
 
 
 function Article() {
@@ -14,8 +15,7 @@ function Article() {
                 <div className='article-container'>
                     <div className='article1'>
                         <h3>Albin Kurti nuk lejohet te kandidoje per zgjedhjet ne Kosove</h3>
-                        <h5>Albin Kurti, kryeminister, Vetvendosje</h5>
-                        <p>Certifikimi i 47 deputeteve per zgjedhjet e parakohshme parlamentare ne Kosove, tashme eshte ne pikepyetje...<a href='#' className='seemore'>see more</a></p>
+                        <h5>Albin Kurti, kryeminister, Vetvendosje</h5><Link to="/seearticle">see more</Link>
                     </div>
 
                     <div className='article2'>
