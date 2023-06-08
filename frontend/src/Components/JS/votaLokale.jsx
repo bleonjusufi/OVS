@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../CSS/votaLokaleForm.css';
+//import '../CSS/votaLokaleForm.css';
 
 
 
@@ -9,48 +9,48 @@ class VotaLokale extends Component {
         
             return (
                 <>
-                    <div className="container2">
+                    <div className="container3">
 
-                        <div className="text-box">
-                            <h3 className="header">Zgjedh kryeministrin e vendit!</h3>
+                        <div className="text-boxx">
+                            <h3 className="header3">Zgjedh kryeministrin e vendit!</h3>
 
-                            <p className="paragraph">Ne menyre qe vota te jete e vlefshe, zgjedhni vetem njerin kandidat.</p>
+                            <p className="paragraph3">Ne menyre qe vota te jete e vlefshe, zgjedhni vetem njerin kandidat.</p>
                         </div>
 
-                        <div className="wrapper2">
-                            <label className="label1 can">
-                                <input type="checkbox" name="candidate1" className="can1" />
+                        <div className="wrapper3">
+                            <label className="lab">
+                                <input type="box3" name="candidate1"/>
                                 Albin Kurti- VV
                             </label>
                             
 
-                            <label className="label1 can">
-                                <input type="checkbox" name="candidate2" className="can1" />
+                            <label className="lab">
+                                <input type="box3" name="candidate2" />
                                 Perparim Rama - LDK
                             </label>
                             <br />
 
-                            <label className="label1">
-                                <input type="checkbox" name="candidate3" className="can1" />
+                            <label className="lab">
+                                <input type="box3" name="candidate3"  />
                                 Uran Ismaili - PDK
                             </label>
                         
 
-                            <label className="lab label1">
-                                <input type="checkbox" name="candidate4" className="can1" />
+                            <label className="lab">
+                                <input type="box3" name="candidate4" />
                                 Behgjet Pacolli - AKR
                             </label>
                             <br />
 
-                            <label className="lab2 label1">
-                                <input type="checkbox" name="candidate5" className="can1" />
+                            <label className="lab">
+                                <input type="box3" name="candidate5"  />
                                  Ramush Haradinaj - AAK
                             </label>
                           
                         </div>
 
                         <Link to="">
-                            <button className="button">Dergo Voten!</button>
+                            <button className="button3">Dergo Voten!</button>
                         </Link>
                     </div>
                 </>
