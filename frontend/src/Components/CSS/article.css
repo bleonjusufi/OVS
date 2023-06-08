@@ -1,318 +1,271 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+/* Styling for the article container */
 .article-container {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 200px;
     margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-}
-
-/* Styling for each individual article */
-.article1 {
+  }
+  
+  /* Styling for each individual article */
+  .article1 {
     width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
-}
+  }
 
-    .article1 img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+  .article1 h3{
+    margin-top: 20px;
+    margin-left: 8px;
+  }
+  
+  .article1 h5 {
+    margin: 10px;
+  }
+  
+  .article1 p {
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
+  .article1 a {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .article1 a:hover {
+    text-decoration: underline;
+  }
 
-    .article1 h3 {
-        margin-left: 10px;
-    }
-
-    .article1 h5 {
-        margin: 10px;
-    }
-
-    .article1 p {
-        margin: 10px;
-        font-size: 1rem;
-    }
-
-    .article1 a {
-        margin: 10px;
-        font-size: 0.9rem;
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-        .article1 a:hover {
-            text-decoration: underline;
-        }
-
-.article2 {
+  .article2 {
     width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
-}
+  }
+  
+  
+  .article2 h3{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
 
-    .article2 img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+  .article2 h5{
+    margin-left: 10px;
+  }
+  
+  .article2 p {
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
+  .article2 a {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .article2 a:hover {
+    text-decoration: underline;
+  }
 
-    .article2 h3 {
-        margin-left: 10px;
-    }
-
-    .article2 h5 {
-        margin-left: 10px;
-    }
-
-    .article2 p {
-        margin: 10px;
-        font-size: 1rem;
-    }
-
-    .article2 a {
-        margin: 10px;
-        font-size: 0.9rem;
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-        .article2 a:hover {
-            text-decoration: underline;
-        }
-
-.article3 {
+  .article3 {
     width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
-}
+  }
+  
+  .article3 h3{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
 
-    .article3 img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+  .article3 h5{
+    margin-left: 10px;
+  }
+  
+  .article3 p {
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
+  .article3 a {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .article3 a:hover {
+    text-decoration: underline;
+  }
 
-    .article3 h3 {
-        margin-left: 10px;
-    }
-
-    .article3 h5 {
-        margin-left: 10px;
-    }
-
-    .article3 p {
-        margin: 10px;
-        font-size: 1rem;
-    }
-
-    .article3 a {
-        margin: 10px;
-        font-size: 0.9rem;
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-        .article3 a:hover {
-            text-decoration: underline;
-        }
-
-.article4 {
+  .article4 {
     width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
-}
+  }
 
-    .article4 img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+  .article4 h3{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
 
-    .article4 h3 {
-        margin-left: 10px;
-    }
+  .article4 h5{
+    margin-left: 10px;
+  }
+  
+  .article4 p {
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
+  .article4 a {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .article4 a:hover {
+    text-decoration: underline;
+  }
 
-    .article4 h5 {
-        margin-left: 10px;
-    }
-
-    .article4 p {
-        margin: 10px;
-        font-size: 1rem;
-    }
-
-    .article4 a {
-        margin: 10px;
-        font-size: 0.9rem;
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-        .article4 a:hover {
-            text-decoration: underline;
-        }
-
-.article5 {
+  .article5 {
     width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
-}
+  }
+   
+  .article5 h3{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
 
-    .article5 img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+  .article5 h5{
+    margin-left: 10px;
+  }
+  
+  .article5 p {
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
+  .article5 a {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .article5 a:hover {
+    text-decoration: underline;
+  }
 
-    .article5 h3 {
-        margin-left: 10px;
-    }
-
-    .article5 h5 {
-        margin-left: 10px;
-    }
-
-    .article5 p {
-        margin: 10px;
-        font-size: 1rem;
-    }
-
-    .article5 a {
-        margin: 10px;
-        font-size: 0.9rem;
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-        .article5 a:hover {
-            text-decoration: underline;
-        }
-
-.article6 {
+  .article6 {
     width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
-}
+  }
+  
+  .article6 h3{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
 
-    .article6 img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+  .article6 h5{
+    margin-left: 10px;
+  }
+  
+  .article6 p {
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
+  .article6 a {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .article6 a:hover {
+    text-decoration: underline;
+  }
 
-    .article6 h3 {
-        margin-left: 10px;
-    }
-
-    .article6 h5 {
-        margin-left: 10px;
-    }
-
-    .article6 p {
-        margin: 10px;
-        font-size: 1rem;
-    }
-
-    .article6 a {
-        margin: 10px;
-        font-size: 0.9rem;
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-        .article6 a:hover {
-            text-decoration: underline;
-        }
-
-.article7 {
+  .article7 {
     width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
-}
+  }
+  
+  .article7 h3{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
 
-    .article7 img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+  .article7 h5{
+    margin-left: 10px;
+  }
+  
+  .article7 p {
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
+  .article7 a {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .article7 a:hover {
+    text-decoration: underline;
+  }
 
-    .article7 h3 {
-        margin-left: 10px;
-    }
-
-    .article7 h5 {
-        margin-left: 10px;
-    }
-
-    .article7 p {
-        margin: 10px;
-        font-size: 1rem;
-    }
-
-    .article7 a {
-        margin: 10px;
-        font-size: 0.9rem;
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-        .article7 a:hover {
-            text-decoration: underline;
-        }
-
-
-.article8 {
+  
+  .article8 {
     width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
-}
+  }
+  
+  .article8 h3{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
 
-    .article8 img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+  .article8 h5{
+    margin-left: 10px;
+  }
+  
+  .article8 p {
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
+  .article8 a {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .article8 a:hover {
+    text-decoration: underline;
+  }
 
-    .article8 h3 {
-        margin-left: 10px;
-    }
-
-    .article8 h5 {
-        margin-left: 10px;
-    }
-
-    .article8 p {
-        margin: 10px;
-        font-size: 1rem;
-    }
-
-    .article8 a {
-        margin: 10px;
-        font-size: 0.9rem;
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-        .article8 a:hover {
-            text-decoration: underline;
-        }
+  
