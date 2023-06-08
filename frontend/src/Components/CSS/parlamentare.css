@@ -1,0 +1,80 @@
+.divClass{
+  background-color: lightblue;
+
+}
+.header1{
+  text-align: center;
+  padding-top: 50px;
+}
+.paragraphs{
+  text-align: center;
+  color: darkslategrey;
+  margin: 40px 0 ;
+
+}
+
+.checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.checkbox input[type="checkbox"] {
+  margin-right: 155px;
+}
+
+.flexbox-container{
+  width: 50%;
+  margin-left: 300px;
+}
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexbox-container label {
+  display: flex;
+  align-items: center;
+  margin: 3px;
+}
+
+.flexbox-container input[type="checkbox"] {
+  margin-right: 3px;
+}
+
+
+.button1 {
+  padding: 6px 140px;
+  border-radius: 15px;
+  background-color: yellow;
+  color: darkslategrey;
+  font-weight: bolder;
+  border: 1px solid darkslategrey;
+  font-size: 33px;
+  margin-top: 30px;
+  margin-left: 450px;
+  margin-bottom: 75px;
+}
+
+.checkbox2{
+  width: 50%;
+  margin-left: 350px;
+}
+
+.checkbox2 input[type="checkbox"] {
+  margin-right: 5px;
+}
+.checkbox2 label {
+  margin: 20px;
+}
+.labeltype{
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(2, 2, 58);
+}
+.flexbox-container{ 
+  margin-left: 350px;
+  padding: 20px;
+}

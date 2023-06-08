@@ -22,33 +22,33 @@ class ParlamentareForm extends Component {
     return (
       <>
         <div className="divClass">
-          <h1 className="header1">Zgjedhjet Parlamentare jane HAPUR!</h1>
+          <h1 className="header1">Zgjedhjet Parlamentare 2024!</h1>
           <p className="paragraphs">
             Ne menyre qe vota te jete e vlefshme, zgjedhni partin dhe numrat perkates te 5 kandidateve te asaj partie.
           </p>
 
           <div className="flexbox-container">
-          <label>
+          <label className='labeltype'>
               <input type="checkbox" />
               133 LVV
             </label>
 
-            <label>
+            <label className='labeltype'>
               <input type="checkbox" />
               134 PDK
             </label>
 
-            <label>
+            <label className='labeltype'>
               <input type="checkbox" />
               135 LDK
             </label>
 
-            <label>
+            <label className='labeltype'>
               <input type="checkbox" />
               136 AAK
             </label>
 
-            <label>
+            <label className='labeltype'>
               <input type="checkbox" />
               137 AKR
             </label>
