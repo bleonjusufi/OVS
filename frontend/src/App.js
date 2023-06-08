@@ -17,6 +17,7 @@ import votaLokale from './Components/JS/VotaLokale.jsx';
 import Voto from './Components/JS/votoketu.jsx';
 import Zgjedhjet from './Components/JS/zgjedhjet.jsx';
 import Vetvendosje from './Components/JS/vvpage.jsx';
+import Pdk from './Components/JS/pdkpage.jsx';
 
 function App() {
     return (
@@ -40,6 +41,7 @@ function App() {
                     <Route path="/votoketu" element={<Voto/>}/>
                     <Route path="/zgjedhjet" element={<Zgjedhjet/>}/>
                     <Route path="/vvpage" element={<Vetvendosje/>}/>
+                    <Route path="/pdkpage" element={<Pdk/>}/>
                 </Routes>
             </Router>
         </>
