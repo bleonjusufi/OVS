@@ -1,47 +1,106 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.wrapper{
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../images/qeveria.jpg) no-repeat;
-  background-size: cover;
+.main{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../images/qeveria.jpg);
   height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.main{
+form.example {
   display: flex;
 }
-.register-form{
-  background-color: white;
-  border-radius: 8px;
-  width: 450px;
-  height: 400px;
-  margin: 0 auto;
-  margin-top: 150px;
-  display: flex;
-  justify-content: center ;
-  align-items: center;
+input[type="text"] {
+  padding: 12px 23px 12px;
+  font-size: 13px;
+  width: 350px;
+  border: none;
+  background: #f5fafe;
+  border-radius: 6px;
 }
-.register-input{
-  width: 250px;
-  height: 30px;
-  border: 1px solid lightgray;
+
+button {
+  padding: 13px 26px;
+  background: #2196f3;
+  color: white;
+  font-size: 12px;
+  border: none;
+  background-color: #0a223d;
+  border-radius: 0px 6px 6px 0px;
+  cursor: pointer;
+}
+
+.log-in__container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+h2 {
+  color: black;
+  text-align: center;
+  margin: 0 0 20px;
+}
+.form {
+  padding: 30px 40px;
+}
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.form-control {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
   border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
 }
-.signup-button{
-  width: 250px;
-  height: 30px;
-  background-color: yellow;
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.form button {
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+}
+.buttons a {
+  width: 150px;
+  text-decoration: none;
   border: none;
   border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.cancel-button {
+  background-color: whitesmoke;
+  color: #0a223d;
 }
 .link{
-  font-size: 13px;
   color: black;
+  font-size: 14px;
 }

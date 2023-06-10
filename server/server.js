@@ -46,7 +46,7 @@ app.get("/", (req, res) => {
   });
   
   app.delete("/users/:id", (req, res) => {
-    const bookId = req.params.id;
+    const userId = req.params.id;
     const q = " DELETE FROM users WHERE id = ? ";
   
     db.query(q, [userId], (err, data) => {
