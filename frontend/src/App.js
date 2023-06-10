@@ -9,7 +9,7 @@ import Lokal from './Components/JS/kandidatetLokal.jsx';
 import Lokale from './Components/JS/zgjedhjetLokale.jsx';
 import Contact from './Components/JS/contact.jsx';
 import Users from './userCRUD/users.jsx';
-import CreateUser from './userCRUD/createUser.jsx';
+import Add from './userCRUD/createUser.jsx';
 import Read from './userCRUD/readUser.jsx';
 import Edit from './userCRUD/editUser.jsx';
 import ParlamentareForm from './Components/JS/ParlamentareForm.jsx';
@@ -35,7 +35,7 @@ function App() {
                     <Route path="/kandidatetLokal" element={<Lokal />} />
                     <Route path="/zgjedhjetLokale" element={<Lokale />} />
                     <Route path="/users" element={<Users /> } /> 
-                    <Route path='/create' element={<CreateUser />} />
+                    <Route path='/create' element={<Add />} />
                     <Route path='/read/:id' element={<Read />} />
                     <Route path='/edit/:id' element={<Edit />} />
                     <Route path="/ParlamentareForm" element={<ParlamentareForm />} />

@@ -1,57 +1,63 @@
-import React, { useEffect, useState } from 'react';
-import {Link} from 'react-router-dom';
-import axios from 'axios';
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
+import { Link } from 'react-router-dom'
 
-function Users() {
-    const [data, setData] = useState([])
+const Users = () => {
+    const [users, setUsers] = useState([]);
+  
     useEffect(() => {
-        axios.get('http://localhost:8081/')
-        .then(res => setData(res.data))
-        .catch(err => console.log(err));
-    }, [])
-
-    const handleDelete = (id) => {
-        axios.delete('http://localhost:8081/delete' + id)
-        .then(res => {
-            // location.reload();
-        })
-        .catch(err => console.log(err));
-    }
-
+      const fetchAllUsers = async () => {
+        try {
+          const res = await axios.get("http://localhost:8081/users");
+          setUsers(res.data);
+        } catch (err) {
+          console.log(err);
+        }
+      };
+      fetchAllUsers();
+    }, []);
+  
+    console.log(users);
+  
+    const handleDelete = async (id) => {
+      try {
+        await axios.delete(`http://localhost:8081/users/${id}`);
+        window.location.reload()
+      } catch (err) {
+        console.log(err);
+      }
+    };
+  
     return (
-        <div className='d-flex vh-100 bg-primary justify-content-center align-items-center'>
-            <div className='w-50 bg-white rounded p-3'>
-                <h2>Lista e Perdoruesve</h2>
-                <div className='d-flex justify-content-end'>
-                    <Link to='/create' className='btn btn-success'>Create +</Link>
-                </div>
-                <table className='table'>
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Emri dhe Mbiemri</th>
-                                <th>Numri Personal</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {data.map((perdoruesit, index) => {
-                                return <tr key={index}>
-                                    <td>{perdoruesit.ID}</td>
-                                    <td>{perdoruesit.fullName}</td>
-                                    <td>{perdoruesit.nrPersonal}</td>
-                                    <td>
-                                        <Link to={`/read/${perdoruesit.ID}`} className='btn btn-sm btn-info'>Read</Link>
-                                        <Link to={`/edit/${perdoruesit.ID}`} className='btn btn-sm btn-primary mx-2'>Ndrysho</Link>
-                                        <button className='btn btn-sm btn-danger'>Delete</button>
-                                    </td>
-                                </tr>
-                            })}
-                        </tbody>
-                </table>
+      <div>
+        <h1>Users</h1>
+        <div className="users">
+          {users.map((user) => (
+            <div key={user.id} className="user">
+              <h2>{user.name}</h2>
+              <h2>{user.numripersonal}</h2>
+              <h2>{user.email}</h2>
+              <h2>{user.password}</h2>
+              <button className="delete" onClick={() => handleDelete(user.id)}>Delete</button>
+              <button className="update">
+                <Link
+                  to={`/edit/${user.id}`}
+                  style={{ color: "inherit", textDecoration: "none" }}
+                >
+                  Update
+                </Link>
+              </button>
             </div>
+          ))}
         </div>
-    )
-}
+  
+        <button className="addHome">
+          <Link to="/create" style={{ color: "inherit", textDecoration: "none" }}>
+            Add new book
+          </Link>
+        </button>
+      </div>
+    );
+  };
 
-export default Users;
+export default Users
