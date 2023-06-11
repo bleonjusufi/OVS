@@ -1,4 +1,27 @@
 .form-container{
     text-align: center;
-    margin-top: 200px;
+    margin: 250px 0px;
+    border: 1px solid lightgrey;
+    padding-bottom: 150px;
+    width: 70%;
+    height: 100%;
+    margin-left: 280px;
+}
+
+.headerInfo{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding: 9px;
+    margin-bottom: 50px;
+}
+.info{
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+input{
+    width: 25%;
+    box-shadow: 0 2px 4px rgba(128, 128, 128, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
 }
