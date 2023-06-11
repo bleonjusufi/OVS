@@ -9,11 +9,15 @@ import { FaNewspaper } from 'react-icons/fa';
 import { FaSignOutAlt } from 'react-icons/fa';
 import { BsFillBellFill } from 'react-icons/bs';
 import { FiChevronRight } from 'react-icons/fi';
+import logo from '../images/logo.png'
 
 
 function Sidebar() {
   return (
     <div className="sidebar">
+       <div className="logo">
+                        <img src={logo} alt="" id="mainLogo" />
+                    </div>
       <ul className='sidebar-ul'>
         <li className='li1'>
           <a href="/personalInformation">

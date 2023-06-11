@@ -11,11 +11,13 @@ import PDK from '../../images/PDK.png';
 import LDK from '../../images/LDK.png';
 import rks from '../../images/rks.png';
 import Footer from '../Footer.jsx';
+import Sidebar from '../Sidebar.jsx';
 
 function Index() {
     return (
         <>
             <Header />
+            <Sidebar />
             <div className="container">
                 <div className="main-content">
                     <p className="small-text">

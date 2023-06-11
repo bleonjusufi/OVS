@@ -14,7 +14,7 @@ import Read from './userCRUD/readUser.jsx';
 import Edit from './userCRUD/editUser.jsx';
 import ParlamentareForm from './Components/JS/ParlamentareForm.jsx';
 import PersonalInfo from './Components/JS/personalInfo.jsx';
-import VotaLokale from './Components/JS/VotaLokale.jsx';
+import VotaLokale from './Components/JS/votaLokale.jsx';
 import Voto from './Components/JS/votoketu.jsx';
 import Zgjedhjet from './Components/JS/zgjedhjet.jsx';
 import Vetvendosje from './Components/JS/vvpage.jsx';
