@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../CSS/votaLokaleForm.css';
+import '../CSS/VotaLokaleForm.css';
 
 
 
