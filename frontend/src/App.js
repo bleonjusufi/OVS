@@ -13,13 +13,7 @@ import Add from './userCRUD/createUser.jsx';
 import Read from './userCRUD/readUser.jsx';
 import Edit from './userCRUD/editUser.jsx';
 import ParlamentareForm from './Components/JS/ParlamentareForm.jsx';
-<<<<<<< HEAD
 import PersonalInfo from './Components/JS/personalInfo.jsx';
-import votaLokale from './Components/JS/votaLokale.jsx';
-
-
-// import 'bootstrap/dist/css/bootstrap.min.css';
-=======
 import VotaLokale from './Components/JS/VotaLokale.jsx';
 import Voto from './Components/JS/votoketu.jsx';
 import Zgjedhjet from './Components/JS/zgjedhjet.jsx';
@@ -27,7 +21,8 @@ import Vetvendosje from './Components/JS/vvpage.jsx';
 import Pdk from './Components/JS/pdkpage.jsx';
 import seeArticlePage from './Components/JS/seearticle.jsx';
 import Ldk from './Components/JS/lidhjademokratike.jsx';
->>>>>>> b71b512bcbcc3b695804dde4d7df467751b030ae
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
     return (
