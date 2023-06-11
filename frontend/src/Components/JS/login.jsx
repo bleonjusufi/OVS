@@ -1,28 +1,69 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
+// import { Navigate } from "react-router-dom";
+// import axios from "axios";
 import '../CSS/login.css';
 
-export const Login = (props) => {
-    const [NumriPersonal, setNumriPersonal] = useState('');
-    const [pass, setPass] = useState('');
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(NumriPersonal);
-    }
+function Login() {
 
     return (
-        <div className="auth-form-container">
-            <h2>Kycu!</h2>
-            <form className="login-form" onSubmit={handleSubmit}>
-                <label htmlFor="NumriPersonal">Numri Personal</label>
-                <input value={NumriPersonal} onChange={(e) => setNumriPersonal(e.target.value)} type="number" placeholder="Numri Personal" id="Numri Personal" name="Numri Personal" />
-                <label htmlFor="Fjalkalimi">Fjalkalimi</label>
-                <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="Fjalkalimi" name="Fjalkalimi" />
-                <button type="submit">Log In</button>
-            </form>
-            <button className="link-btn"><Link to="/register">Nuk keni llogari? Regjistrohuni ketu.</Link></button>
+        <div className="wrapper">
+        <div className="container">
+            <div className="main">
+            <div className="login-form">
+                <form action="">
+                    <div>
+                    <label htmlFor="numriPersonal">Numri Personal</label><br></br>
+                    <input type="number" placeholder="Numri Personal" className="login-input"  name="numriPersonal" />
+                    <br></br>
+                    </div>
+                    <br></br>
+                    <div>
+                    <label htmlFor="password">Fjalekalimi</label><br></br>
+                    <input type="password" placeholder="Fjalekalimi" className="login-input"  name="password" />
+                    <br></br>
+                    </div>
+                    <br></br>
+                    <button type="submit"  className="login-button">Kycu</button>
+                    <br></br>
+                    <Link to='/register' className="link">Krijoni Llogari</Link>
+                </form>
+            </div>
         </div>
+        </div>
+        </div>
+    //     <div className="main">
+    // <div class="container">
+    //   <div class="log-in__container">
+    //   <form id="form" class="form" autocomplete="off">
+    //     <h2>Kycuni</h2>
+    //     <div class="form-control">
+    //         <label htmlFor="numripersonal">Numri Personal</label>
+    //         <input
+    //           type="number"
+    //           id="numripersonal"
+    //           name="numripersonal"
+    //           placeholder="Shëno numrin personal"
+    //         />
+    //       </div>
+    //       <div class="form-control">
+    //         <label htmlFor="password">Fjalekalimi</label>
+    //         <input
+    //           type="password"
+    //           id="password"
+    //           name="password"
+    //           placeholder="Shëno fjalëkalimin"
+    //         />
+    //       </div>
+    //       <div class="buttons">
+    //         <Link to="/" class="cancel-button">Kthehu Mbrapa</Link>
+    //         <button type="submit">Kycu</button>
+    //       </div>
+    //   </form>
+    //   </div>
+    //   </div>
+    //   </div>
     )
 }
-export default Login;
+
+export default Login

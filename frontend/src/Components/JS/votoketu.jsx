@@ -7,7 +7,7 @@ import '../CSS/voto.css';
 function Voto(){
     return(
     <div>
-        <Navbar/>
+        <Header/>
         <Sidebar/>
         <div className="zgjedhjet">
             <h1>Voto!</h1>
