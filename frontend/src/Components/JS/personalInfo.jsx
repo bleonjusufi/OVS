@@ -27,9 +27,9 @@ function PersonalInfo() {
         // Reset the form
         setFormData({
           firstName: '',
-          lastName: '',
+          personalNumber: '',
           email: '',
-          phoneNumber: '',
+          passwordAcc: '',
         });
       };
 
