@@ -40,49 +40,54 @@ function PersonalInfo() {
 
            <div className='form-container'>
            <form onSubmit={handleSubmit}>
+            <h1 className='headerInfo'>Profili im</h1>
                 <label>
-                    Numri Personal:
+                    Emri Perdoruesit:
                     <input
-                    type="number" step="1"
+                    type="text" 
                     name="firstName"
+                    className='info'
                     value={formData.firstName}
                     onChange={handleChange}
                     />
                 </label>
                 <br />
                 <label>
-                    Last Name:
+                    Numri Personal:
                     <input
                     type="text"
-                    name="lastName"
+                    name="personalNumber"
+                    className='info'
                     value={formData.lastName}
                     onChange={handleChange}
                     />
                 </label>
                 <br />
                 <label>
-                    Email:
+                    Adresa Elektronike:
                     <input
                     type="email"
                     name="email"
+                    className='info'
                     value={formData.email}
                     onChange={handleChange}
                     />
                 </label>
                 <br />
                 <label>
-                    Phone Number:
+                    Fjalekalimi:
                     <input
-                    type="tel"
-                    name="phoneNumber"
+                    type="password"
+                    name="passwordAcc"
+                    className='info'
                     value={formData.phoneNumber}
                     onChange={handleChange}
                     />
                 </label>
-                <br />
-                <button type="submit">Submit</button>
+
     </form>
            </div>
+           <Footer/>
 
         </>
     )

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Sidebar.css';
+import './CSS/Sidebar.css';
 import { FaUser } from 'react-icons/fa';
 import { FaHome } from 'react-icons/fa';
 import { FaVoteYea } from 'react-icons/fa';
@@ -20,7 +20,7 @@ function Sidebar() {
                     </div>
       <ul className='sidebar-ul'>
         <li className='li1'>
-          <a href="/personal-information">
+          <a href="/personalInformation">
           <FaUser/>
             Informatat Personale
           </a>
