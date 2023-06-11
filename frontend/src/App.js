@@ -47,11 +47,7 @@ function App() {
                     <Route path='/read/:id' element={<Read />} />
                     <Route path='/edit/:id' element={<Edit />} />
                     <Route path="/ParlamentareForm" element={<ParlamentareForm />} />
-<<<<<<< HEAD
-                    <Route path="/votaLokale" element={<votaLokale/>} />
                     <Route path="/personalInformation" element={<PersonalInfo/>} />
-                    </Routes>
-=======
                     <Route path="/votaLokale" element={<VotaLokale/>} />
                     <Route path="/votoketu" element={<Voto/>}/>
                     <Route path="/zgjedhjet" element={<Zgjedhjet/>}/>
@@ -60,7 +56,6 @@ function App() {
                     <Route path="/seearticle" element={<seeArticlePage/>}/>
                     <Route path="/lidhjademokratike" element={<Ldk/>}/>
                 </Routes>
->>>>>>> b71b512bcbcc3b695804dde4d7df467751b030ae
             </Router>
         </>
     )
