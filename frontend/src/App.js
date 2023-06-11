@@ -13,6 +13,7 @@ import CreateUser from './userCRUD/createUser.jsx';
 import Read from './userCRUD/readUser.jsx';
 import Edit from './userCRUD/editUser.jsx';
 import ParlamentareForm from './Components/JS/ParlamentareForm.jsx';
+import PersonalInfo from './Components/JS/personalInfo.jsx';
 import votaLokale from './Components/JS/votaLokale.jsx';
 
 
@@ -37,6 +38,7 @@ function App() {
                     <Route path='/edit/:id' element={<Edit />} />
                     <Route path="/ParlamentareForm" element={<ParlamentareForm />} />
                     <Route path="/votaLokale" element={<votaLokale/>} />
+                    <Route path="/personalInformation" element={<PersonalInfo/>} />
                     </Routes>
             </Router>
         </>
